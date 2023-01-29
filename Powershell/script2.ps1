@@ -1,3 +1,4 @@
+#Crea o programa de adiviñanza do número
 function Guesser {
     param (
         [Parameter(Mandatory)]
@@ -33,6 +34,7 @@ function Guesser {
     
 }
 
+#Xera un número aleatorio entre os valores especificados
 function NumRandom {
     param (
         [Parameter(Mandatory)]
@@ -46,6 +48,7 @@ function NumRandom {
     return $result
 }
 
+#Main
 $TopMargin = Read-Host "Introduce o número da marxe superior: "
 $BottomMargin = Read-Host "Introduce o número da marxe inferior: "
 
